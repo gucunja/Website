@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700,400italic);
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body header {
+  background: url("resources/images/header.jpg") center center;
+  background-size: cover;
+  height: 450px;
+}
+
+body header .signature {
+  float: left;
+  margin: 30px;
+}
+
+body header nav {
+  float: right;
+  margin: 30px;
+}
+
+body header nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 3px black;
+  letter-spacing: 0.07em;
+}
+
+body header nav a:hover {
+  text-decoration: overline;
+}
+
+body header h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: 20px;
+  clear: both;
+  padding-top: 50px;
+}
+
+body header h1 span {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  border: 12px solid white;
+}
+
+body header .kicker {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: white;
+  line-height: 1;
+}
+
+body .placeholder {
+  width: 960px;
+  margin: 0px auto;
+  padding: 5px;
+  text-align: justify;
+  background: white;
+  box-shadow: 0 0 10px grey;
+}
+
+body footer {
+  background: url("resources/images/header.jpg") center center;
+  background-size: cover;
+  height: 80px;
+}
+
+body footer .signature {
+  float: left;
+  margin-top: 5px;
+  margin-left: 30px;
+  filter: drop-shadow(1px 1px 30px black);
+}
+
+body footer nav {
+  float: right;
+  margin: 30px;
+}
+
+body footer nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 3px black;
+  letter-spacing: 0.07em;
+}
+
+body footer nav a:hover {
+  text-decoration: overline;
+}
+
+body footer .copyright {
+  color: white;
+  float: left;
+  margin: 30px;
+}
